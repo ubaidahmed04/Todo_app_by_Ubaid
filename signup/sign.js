@@ -117,11 +117,7 @@ function signup() {
     // return true
   }
 
-
-
-
 }
-
 
 
 function login() {
@@ -169,8 +165,8 @@ function login() {
       text: " Welcome",
       icon: "success",
     });
-    location.href = "./home.html"
-    localStorage.setItem("usersFound", JSON.stringify(usersFound))
+    localStorage.setItem("usersFound", JSON.stringify(usersFound));
+    location.href = "/expense app/home.html"
     // return
   }
 
